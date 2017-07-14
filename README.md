@@ -12,7 +12,10 @@ A web console that allows developers to easily:
 - Set fake template data
 
 ## How is it added to the project
-Including a dependency should be enough. 
+Including a Jar dependency should be enough. 
+
+## What is inside the dev-console jar
+A buch of Controllers with their respective views and frontiers. One of the controllers is **Dev** and it has an action method name **console**. The jar also includes one template.
 
 ## How to access it
 /dev/console
