@@ -17,5 +17,8 @@ Including a Jar dependency should be enough.
 ## What is inside the dev-console jar
 A buch of Controllers with their respective views and frontiers. One of the controllers is **Dev** and it has an action method name **console**. The jar also includes one template.
 
+## Features the dev-console needs that Hi-Framework does nto support them yet
+* Dynamic template registration - dev-console will add a new template to the project, but Hi-Framework required the templates to be declared. There must be way to declare templates dynamically.
+
 ## How to access it
 /dev/console
