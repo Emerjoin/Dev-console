@@ -11,7 +11,7 @@ A web console that allows developers to easily:
 - Create mock frontiers (select a frontier interface or a frontier class to mock + HiList special support)
 - Set fake template data
 
-## Dev-console as welcome-page
+## Dev-console as welcome-screen
 When deploying an app that has no welcome-url set, the dev-console should be shown. 
 
 ## How is it added to the project
