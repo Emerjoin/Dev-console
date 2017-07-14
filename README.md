@@ -11,6 +11,9 @@ A web console that allows developers to easily:
 - Create mock frontiers (select a frontier interface or a frontier class to mock + HiList special support)
 - Set fake template data
 
+## Dev-console as welcome-page
+When deploying an app that has no welcome-url set, the dev-console should be shown. 
+
 ## How is it added to the project
 Including a Jar dependency should be enough. 
 
@@ -19,6 +22,7 @@ A buch of Controllers with their respective views and frontiers. One of the cont
 
 ## Features the dev-console needs that Hi-Framework does nto support them yet
 * Dynamic template registration - dev-console will add a new template to the project, but Hi-Framework required the templates to be declared. There must be way to declare templates dynamically.
+* Setting welcome-url programatically
 
-## How to access it
+## How to access the dev-console
 /dev/console
