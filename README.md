@@ -9,9 +9,10 @@ A web console that allows developers to easily:
 - Create new template and automatically register
 - Enable fixed or smart caching for a specific directory
 - Create mock frontiers (select a frontier interface or a frontier class to mock + HiList special support)
+- Set fake template data
 
 ## How is it added to the project
-Including a maven dependency should be enough. 
+Including a dependency should be enough. 
 
 ## How to access it
 /dev/console
